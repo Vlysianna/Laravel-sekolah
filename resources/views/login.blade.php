@@ -55,6 +55,9 @@
                         </div>
                         <hr>
                         <p class="text-center">Belum punya akun? <a href="{{ route('register') }}">Registrasi</a> sekarang!</p>
+                        <p class="text-center mt-2">
+                            <a href="{{ route('forgot.password') }}">Lupa Password?</a>
+                        </p>
                     </form>
                 </div>
             </div>
